@@ -1,0 +1,828 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  max-width: 100%;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden] {
+  display: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+figure {
+  margin: 0;
+}
+form {
+  margin: 0;
+}
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+button,
+input {
+  line-height: normal;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+button,
+html,
+input,
+select,
+textarea {
+  color: #222;
+}
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+img {
+  vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.visuallyHidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(00 0 0);
+  overflow: hidden;
+}
+
+/* general styling*/
+h2,
+h3 {
+  font-family: "Pacifico";
+  font-size: 1.8rem;
+  padding-bottom: 10px;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content {
+  font-family: "Catamaran";
+  width: 80%;
+  line-height: 24px;
+  font-size: 0.9rem;
+  margin-top: 9px;
+}
+
+.icons a {
+  padding: 0;
+}
+
+.icons a p:hover {
+  color: white;
+}
+
+.button {
+  font-family: "Catamaran";
+  text-transform: uppercase;
+  padding: 15px 18px 15px 18px;
+  background-color: #1f2022;
+  color: #f2a11c;
+  width: 27%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background-color: #f2a11c;
+  color: #1f2022;
+}
+
+nav ul,
+.links-footer {
+  text-align: center;
+  font-family: "Catamaran";
+}
+
+.footer-titles {
+  font-family: "Pacifico";
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+  color: #f2a11c;
+}
+
+.footer-content {
+  font-family: "Catamaran";
+}
+
+/*Nav, background and title+ */
+
+/*Background*/
+header {
+  background-image: url(./biker-land-assets/image-1.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+/*Nav*/
+a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+nav ul {
+  padding-top: 26px;
+  padding-left: 55px;
+}
+
+.ul li {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+/*title and icons*/
+header {
+  position: relative;
+}
+
+h1 {
+  color: #f2a11c;
+  font-size: 7rem;
+  position: absolute;
+  top: 43%;
+  /* left: 35%; */
+  font-family: "Pacifico";
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.media {
+  position: absolute;
+  right: 3%;
+  top: 35%;
+  color: #f2a11c;
+}
+
+i {
+  padding: 8px;
+}
+
+.media .fab {
+  font-size: 1.4rem;
+}
+
+/*float containers*/
+
+/*text content*/
+
+.about,
+.mission {
+  width: 50%;
+  float: left;
+  padding-top: 59px;
+  padding-left: 100px;
+}
+
+/*images*/
+div img {
+  float: left;
+  width: 50%;
+}
+
+/* third section of the page */
+.alissa {
+  clear: both;
+}
+
+.alissa {
+  width: 23.5%;
+}
+
+.getToKnowAlissa {
+  float: left;
+  width: 70%;
+  padding-left: 30px;
+}
+.section2 {
+  padding-left: 145px;
+  padding-top: 80px;
+  height: 400px;
+  background-color: #f4f4f4;
+}
+
+.button.alissa {
+  margin-top: 29px;
+}
+
+/*half page background image*/
+
+/*background image*/
+.info-section {
+  background-image: url(./biker-land-assets/image-5.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+/*icons*/
+.products,
+.community,
+.phone {
+  float: left;
+  text-align: center;
+  margin: 33px;
+}
+
+.icons {
+  position: absolute;
+  top: 35%;
+  left: 29%;
+}
+
+.info-section {
+  position: relative;
+  padding: 20px;
+}
+.info-section p,
+.fig {
+  font-size: 1.7rem;
+  color: white;
+}
+
+.info-section p {
+  color: #f2a11c;
+}
+
+/*the gram section*/
+
+.section3 {
+  clear: both;
+  width: 33.333%;
+  height: 30px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+h3 {
+  font-family: "Pacifico";
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.img-insta {
+  float: left;
+  width: calc(33.3% - 30px);
+  padding: 10px 30px 72px 30px;
+  padding-top: 10px;
+}
+
+.insta-images {
+  padding-left: 120px;
+}
+
+/*footer*/
+
+footer {
+  clear: both;
+}
+
+footer {
+  background-color: #1f2022;
+  height: 300px;
+  color: white;
+}
+
+.links-footer li {
+  display: inline-block;
+  padding-top: 70px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.links-footer a:hover {
+  color: #f2a11c;
+}
+
+.footer-contact {
+  padding: 30px;
+  padding-right: 0;
+}
+.newsletter,
+.contact {
+  float: left;
+  width: calc(100% / 2 - 118px);
+}
+
+input[type="email"] {
+  width: 80%;
+  margin-top: 7px;
+  float: left;
+  padding: 7px;
+}
+
+.newsletter {
+  margin-left: 227px;
+}
+
+.contact {
+  margin-left: 118px;
+  width: 22%;
+}
+
+.contact .footer-content {
+  line-height: 23px;
+}
+
+.subscribe {
+  margin-top: 7px;
+  float: left;
+  padding: 30px;
+  background-color: #f2a11c;
+  padding: 12px;
+  width: 20%;
+  text-align: center;
+  color: black;
+  font-family: "Catamaran";
+}
+
+.subscribe:hover {
+  background-color: #1f2022;
+  color: #f2a11c;
+}
+
+/*media queries*/
+
+@media (max-width: 1214px) {
+  header {
+    background-position-x: -140px;
+    background-repeat: no-repeat;
+  }
+
+  .about,
+  .mission {
+    padding-top: 40px;
+  }
+
+  .alissa.img {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 1111px) {
+  .main {
+    margin-top: 15px;
+    padding-left: 42px;
+  }
+  .mission {
+    padding: 21px 0 0 47px;
+  }
+
+  .content {
+    width: 87%;
+  }
+  .about {
+    padding: 36px 0 0 12px;
+    margin-bottom: 80px;
+  }
+
+  .button {
+    width: 32%;
+  }
+
+  img.query.two {
+    margin: 21px 0 0 10px;
+    clear: both;
+  }
+
+  .query {
+    width: 46%;
+    display: block;
+  }
+  img.query.one {
+    margin-top: 35px;
+  }
+
+  .section2 {
+    padding-top: 52px;
+    margin-top: 26px;
+  }
+
+  input[type="email"] {
+    width: 59%;
+  }
+
+  .footer-contact {
+    padding-left: 10px;
+  }
+
+  .contact {
+    margin-left: 97px;
+    width: 26%;
+  }
+
+  .subscribe {
+    width: 27%;
+  }
+  /* .about {
+    float: left;
+  } */
+}
+
+@media (max-width: 968px) {
+  header {
+    background-position-x: -165px;
+  }
+
+  main {
+    margin-bottom: 36px;
+  }
+
+  .about {
+    margin-bottom: 33px;
+  }
+
+  .section2 {
+    padding-left: 102px;
+  }
+
+  .alissa.img {
+    width: 28%;
+  }
+
+  .icons {
+    left: 22%;
+  }
+
+  .info-section {
+    height: 350px;
+  }
+
+  h3 {
+    padding: 30px 0 20px 0;
+  }
+}
+
+@media (max-width: 890px) {
+  .main {
+    padding-left: 0;
+    margin: 0;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .about,
+  .mission {
+    float: none;
+    width: 100%;
+    padding: 34px 0 0 39px;
+  }
+
+  div img {
+    float: none;
+  }
+
+  img.query.two,
+  img.query.one {
+    width: 100%;
+    margin: 0;
+  }
+
+  img.query.one {
+    position: relative;
+    top: -60%;
+  }
+
+  img.query.two {
+    margin-top: 261px;
+  }
+
+  .about {
+    position: absolute;
+    top: 165%;
+  }
+
+  .about .content,
+  .mission .content {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 52px;
+  }
+
+  .getToKnowAlissa {
+    float: none;
+    margin: auto;
+  }
+
+  .getToKnowAlissa h2,
+  .getToKnowAlissa .content {
+    text-align: center;
+  }
+
+  .getToKnowAlissa .content {
+    margin-left: 37px;
+  }
+  .section2 {
+    padding: 0;
+    height: 800px;
+  }
+
+  .alissa.img {
+    width: 48%;
+    margin: 0 0 23px 238px;
+  }
+
+  .button {
+    margin: auto;
+  }
+
+  .links-footer li {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .footer-titles,
+  .footer-content {
+    text-align: center;
+  }
+
+  .footer-contact {
+    padding: 0;
+  }
+
+  .newsletter,
+  .contact {
+    float: none;
+  }
+
+  .contact {
+    margin-left: 321px;
+  }
+
+  .newsletter {
+    margin: 19px 0 0 275px;
+  }
+
+  input[type="email"] {
+    width: 56%;
+    margin-left: 20px;
+  }
+}

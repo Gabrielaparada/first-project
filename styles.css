@@ -302,6 +302,9 @@ textarea {
 }
 
 /* general styling*/
+.hidden {
+  display: none;
+}
 h2,
 h3 {
   font-family: "Pacifico";
@@ -402,7 +405,6 @@ h1 {
   font-size: 7rem;
   position: absolute;
   top: 43%;
-  /* left: 35%; */
   font-family: "Pacifico";
   width: 400px;
   height: 400px;
@@ -680,9 +682,6 @@ input[type="email"] {
   .subscribe {
     width: 27%;
   }
-  /* .about {
-    float: left;
-  } */
 }
 
 @media (max-width: 968px) {
@@ -720,9 +719,21 @@ input[type="email"] {
 }
 
 @media (max-width: 890px) {
+  header {
+    background-position-x: -205px;
+  }
   .main {
     padding-left: 0;
     margin: 0;
+  }
+
+  h1 {
+    font-size: 6.5rem;
+    width: 300px;
+  }
+
+  .media .fab {
+    font-size: 1.2rem;
   }
 
   h2 {
@@ -744,20 +755,28 @@ input[type="email"] {
   img.query.one {
     width: 100%;
     margin: 0;
+    height: 400px;
   }
 
   img.query.one {
-    position: relative;
-    top: -60%;
+    display: none;
   }
 
-  img.query.two {
-    margin-top: 261px;
+  .hidden {
+    display: block;
+  }
+
+  .hidden img {
+    margin: 0 auto;
+    width: 100%;
   }
 
   .about {
-    position: absolute;
-    top: 165%;
+    padding: 0;
+  }
+
+  .about h2 {
+    margin-top: 27px;
   }
 
   .about .content,
@@ -825,4 +844,15 @@ input[type="email"] {
     width: 56%;
     margin-left: 20px;
   }
+
+  footer {
+    height: 318px;
+  }
+
+  .subscribe {
+    width: 34%;
+  }
+}
+
+@media (max-width: 880px) {
 }

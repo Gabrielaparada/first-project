@@ -834,6 +834,7 @@ input[type="email"] {
 
   .contact {
     margin-left: 321px;
+    margin-top: 25px;
   }
 
   .newsletter {
@@ -846,11 +847,25 @@ input[type="email"] {
   }
 
   footer {
-    height: 318px;
+    height: 400px;
   }
 
   .subscribe {
     width: 34%;
+  }
+
+  .insta-images .overflow {
+    position: absolute;
+    left: -800px;
+  }
+
+  .insta-images {
+    padding-left: 0;
+    margin-top: 28px;
+  }
+
+  .insta-images img {
+    width: 50%;
   }
 }
 

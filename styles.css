@@ -302,9 +302,16 @@ textarea {
 }
 
 /* general styling*/
-.hidden {
-  display: none;
+
+.burger {
+  color: white;
+  filter: opacity(0);
+  position: relative;
+  right: 30%;
+  left: 93%;
+  font-size: 1.6rem;
 }
+
 h2,
 h3 {
   font-family: "Pacifico";
@@ -365,6 +372,10 @@ nav ul,
 
 .footer-content {
   font-family: "Catamaran";
+}
+
+.hidden {
+  display: none;
 }
 
 /*Nav, background and title+ */
@@ -716,6 +727,14 @@ input[type="email"] {
   h3 {
     padding: 30px 0 20px 0;
   }
+
+  form {
+    width: 112%;
+  }
+
+  .newsletter {
+    margin-left: 190px;
+  }
 }
 
 @media (max-width: 890px) {
@@ -740,11 +759,19 @@ input[type="email"] {
     text-align: center;
   }
 
+  .content {
+    font-size: 1rem;
+  }
+
+  .about .content {
+    padding-left: 20px;
+  }
+
   .about,
   .mission {
     float: none;
     width: 100%;
-    padding: 34px 0 0 39px;
+    padding: 34px 0 0 30px;
   }
 
   div img {
@@ -818,11 +845,6 @@ input[type="email"] {
     padding-bottom: 10px;
   }
 
-  .footer-titles,
-  .footer-content {
-    text-align: center;
-  }
-
   .footer-contact {
     padding: 0;
   }
@@ -830,20 +852,17 @@ input[type="email"] {
   .newsletter,
   .contact {
     float: none;
+    width: 100%;
+    text-align: center;
+    margin: 0;
   }
 
-  .contact {
-    margin-left: 321px;
-    margin-top: 25px;
-  }
-
-  .newsletter {
-    margin: 19px 0 0 275px;
+  .footer-titles {
+    margin-top: 15px;
   }
 
   input[type="email"] {
     width: 56%;
-    margin-left: 20px;
   }
 
   footer {
@@ -851,7 +870,7 @@ input[type="email"] {
   }
 
   .subscribe {
-    width: 34%;
+    width: 43%;
   }
 
   .insta-images .overflow {
@@ -867,7 +886,82 @@ input[type="email"] {
   .insta-images img {
     width: 50%;
   }
+
+  .links-footer {
+    padding: 0 40px 0 40px;
+  }
+
+  form {
+    width: 60%;
+    margin-left: 200px;
+  }
 }
 
-@media (max-width: 880px) {
+@media (max-width: 795px) {
+  .burger {
+    filter: opacity(1);
+    margin-top: 11px;
+  }
+
+  .nav ul {
+    position: absolute;
+    left: -999px;
+  }
+  .header {
+    background-position-x: -237px;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+  .content {
+    font-size: 1.1rem;
+  }
+  .icons {
+    position: initial;
+  }
+
+  .section2 {
+    height: 724px;
+  }
+
+  .about .content,
+  .mission .content {
+    margin-left: 0;
+    width: 95%;
+  }
+
+  .alissa.img {
+    width: 36%;
+    margin: 35px 0 23px 262px;
+  }
+
+  .getToKnowAlissa {
+    padding: 0;
+  }
+
+  .getToKnowAlissa .content {
+    margin: 0;
+    width: 100%;
+  }
+
+  .info-section {
+    height: auto;
+  }
+
+  .products,
+  .community,
+  .phone {
+    float: none;
+  }
+
+  .fig {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 740px) {
+  header {
+    background-position-x: -255px;
+  }
 }

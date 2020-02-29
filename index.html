@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Bikerland</title>
     <link rel="stylesheet" href="./styles.css" />
     <script
       src="https://kit.fontawesome.com/1125888b4e.js"
@@ -16,6 +16,7 @@
     />
   </head>
   <body>
+    <!---Header starts here ---->
     <header class="nav">
       <nav>
         <ul class="ul">
@@ -27,22 +28,32 @@
         <i class="burger fas fa-bars"></i>
       </nav>
     </header>
+    <!---Header ends here ---->
+
+    <!---Title and social media icon starts here ---->
     <section class="title wrapper">
       <h1>Bikerland</h1>
     </section>
     <aside>
       <ul class="media">
-        <li><i class="fab fa-instagram"></i></li>
-        <li><i class="fab fa-facebook-f"></i></li>
-        <li><i class="fab fa-snapchat-ghost "></i></li>
-        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-instagram" aria-hidden="true"></i></li>
+        <li><i class="fab fa-facebook-f" aria-hidden="true"></i></li>
+        <li><i class="fab fa-snapchat-ghost" aria-hidden="true"></i></li>
+        <li><i class="fab fa-twitter" aria-hidden="true"></i></li>
       </ul>
     </aside>
+    <!---Title and social media icon ends here ---->
+
+    <!---Main content starts here ---->
     <div class="wrapper">
       <main class="main clearfix">
         <div class="about clearfix">
           <div class="hidden">
-            <img class="imgForMobile" src="biker-land-assets/image-2.jpg" />
+            <img
+              class="imgForMobile"
+              src="biker-land-assets/image-2.jpg"
+              alt=""
+            />
           </div>
           <h2>About us</h2>
           <p class="content">
@@ -56,11 +67,11 @@
         </div>
 
         <div class="about-img">
-          <img class="query one" src="biker-land-assets/image-2.jpg" />
+          <img class="query one" src="biker-land-assets/image-2.jpg" alt="" />
         </div>
 
         <div class="mission-img">
-          <img class="query two" src="biker-land-assets/image-7.jpg" />
+          <img class="query two" src="biker-land-assets/image-7.jpg" alt="" />
         </div>
 
         <div class="mission clearfix">
@@ -75,8 +86,15 @@
           <p class="button">Read More</p>
         </div>
       </main>
+      <!---Main content ends here ---->
+
+      <!---Bio section starts here ---->
       <section class="section2">
-        <img class="alissa img" src="biker-land-assets/image-6.jpg" />
+        <img
+          class="alissa img"
+          src="biker-land-assets/image-6.jpg"
+          alt="alissa riding a bike"
+        />
         <div class="getToKnowAlissa">
           <h2>Meet Alissa</h2>
           <p class="content">
@@ -93,7 +111,9 @@
           <p class="button alissa">Read More</p>
         </div>
       </section>
+      <!---Bio section ends here ---->
 
+      <!---More info icons section starts here ---->
       <section class="info-section">
         <div class="icons clearfix">
           <div class="products">
@@ -112,8 +132,10 @@
           </div>
         </div>
       </section>
+      <!---More info icons section ends here ---->
 
-      <section class="section3">
+      <!---Instagram section starts here ---->
+      <section class="section3" aria-hidden="true">
         <div class="instagram">
           <h3>The Gram</h3>
         </div>
@@ -121,14 +143,21 @@
         <div class="insta-images clearfix">
           <img
             class="img-insta"
-            src="biker-land-assets/bikerland-missing.jpg"
+            src="biker-land-assets/bikerland-missing.jpg alt"
+            alt=""
           />
-          <img class="img-insta" src="biker-land-assets/image-3.jpg" />
-          <img class="img-insta overflow" src="biker-land-assets/image-4.jpg" />
+          <img class="img-insta" src="biker-land-assets/image-3.jpg" alt="" />
+          <img
+            class="img-insta overflow"
+            src="biker-land-assets/image-4.jpg"
+            alt=""
+          />
         </div>
       </section>
     </div>
+    <!---Instagram section ends here ---->
 
+    <!---Footer section starts here ---->
     <footer class="footer">
       <div class="wrapper parent">
         <section class="linksparent">
@@ -169,7 +198,11 @@
             </form>
           </div>
         </section>
+        <div class="copyright">
+          <p>Copyright <i class="far fa-copyright"></i> 2019 HackerYou</p>
+        </div>
       </div>
     </footer>
+    <!---Footer section ends here ---->
   </body>
 </html>

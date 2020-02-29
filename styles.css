@@ -620,6 +620,18 @@ input[type="email"] {
   color: #f2a11c;
 }
 
+.copyright {
+  background-color: black;
+  color: #4a4a4a;
+  width: 100%;
+  text-align: center;
+  font-family: "Catamaran";
+}
+
+.copyright i {
+  padding-left: 0;
+}
+
 /*media queries*/
 
 @media (max-width: 1214px) {
@@ -728,8 +740,20 @@ input[type="email"] {
     padding: 30px 0 20px 0;
   }
 
+  .insta-images {
+    padding-left: 90px;
+  }
+
+  .img-insta {
+    width: 30%;
+    padding: 10px 10px 50px 10px;
+  }
+
   form {
     width: 112%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .newsletter {
@@ -748,7 +772,6 @@ input[type="email"] {
 
   h1 {
     font-size: 6.5rem;
-    width: 300px;
   }
 
   .media .fab {
@@ -761,6 +784,7 @@ input[type="email"] {
 
   .content {
     font-size: 1rem;
+    line-height: 29px;
   }
 
   .about .content {
@@ -782,7 +806,6 @@ input[type="email"] {
   img.query.one {
     width: 100%;
     margin: 0;
-    height: 400px;
   }
 
   img.query.one {
@@ -816,6 +839,8 @@ input[type="email"] {
   .getToKnowAlissa {
     float: none;
     margin: auto;
+    width: 90%;
+    padding: 0 0 24px 0;
   }
 
   .getToKnowAlissa h2,
@@ -828,12 +853,15 @@ input[type="email"] {
   }
   .section2 {
     padding: 0;
-    height: 800px;
+    height: auto;
   }
 
   .alissa.img {
-    width: 48%;
-    margin: 0 0 23px 238px;
+    width: 68%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 22px;
   }
 
   .button {
@@ -847,6 +875,7 @@ input[type="email"] {
 
   .footer-contact {
     padding: 0;
+    line-height: 28px;
   }
 
   .newsletter,
@@ -855,6 +884,7 @@ input[type="email"] {
     width: 100%;
     text-align: center;
     margin: 0;
+    padding-bottom: 11px;
   }
 
   .footer-titles {
@@ -866,11 +896,12 @@ input[type="email"] {
   }
 
   footer {
-    height: 400px;
+    height: auto;
   }
 
   .subscribe {
     width: 43%;
+    padding: 6px 12px 6px 12px;
   }
 
   .insta-images .overflow {
@@ -887,17 +918,23 @@ input[type="email"] {
     width: 50%;
   }
 
-  .links-footer {
-    padding: 0 40px 0 40px;
+  .img-insta {
+    padding: 10px 25px 50px 25px;
   }
 
   form {
-    width: 60%;
-    margin-left: 200px;
+    width: 80%;
+  }
+
+  .copyright {
+    margin-top: 19px;
   }
 }
 
 @media (max-width: 795px) {
+  header {
+    background-position-x: -277px;
+  }
   .burger {
     filter: opacity(1);
     margin-top: 11px;
@@ -921,23 +958,10 @@ input[type="email"] {
     position: initial;
   }
 
-  .section2 {
-    height: 724px;
-  }
-
   .about .content,
   .mission .content {
     margin-left: 0;
     width: 95%;
-  }
-
-  .alissa.img {
-    width: 36%;
-    margin: 35px 0 23px 262px;
-  }
-
-  .getToKnowAlissa {
-    padding: 0;
   }
 
   .getToKnowAlissa .content {
@@ -962,6 +986,88 @@ input[type="email"] {
 
 @media (max-width: 740px) {
   header {
-    background-position-x: -255px;
+    background-position-x: -350px;
+  }
+
+  .info-section {
+    background-position-x: -583px;
+  }
+
+  .media {
+    filter: opacity(0);
+  }
+
+  form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 560px) {
+  header {
+    background-position-x: -295px;
+  }
+
+  h1 {
+    font-size: 5.5rem;
+  }
+  .burger {
+    right: 37%;
+    left: 87%;
+    font-size: 2rem;
+    margin-top: 28px;
+  }
+
+  .alissa.img {
+    width: 80%;
+  }
+
+  .subscribe,
+  input[type="email"] {
+    float: none;
+  }
+
+  input {
+    text-align: center;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input[type="email"] {
+    width: 90%;
+  }
+
+  .subscribe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 410px) {
+  h1 {
+    width: 300px;
+    height: 300px;
+    font-size: 4.5rem;
+  }
+  /* input[type="email"] {
+    width: 90%;
+  } */
+  .button {
+    width: 40%;
+  }
+
+  /* .subscribe {
+    width: 90%;
+  } */
+
+  .links-footer li {
+    font-size: 0.8rem;
+  }
+
+  .info-section {
+    background-position-x: -676px;
   }
 }

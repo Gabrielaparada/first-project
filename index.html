@@ -5,15 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bikerland</title>
     <link rel="stylesheet" href="./styles.css" />
-    <script
-      src="https://kit.fontawesome.com/1125888b4e.js"
-      crossorigin="anonymous"
-    ></script>
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Catamaran:400,700|Pacifico&display=swap"
-      rel="stylesheet"
-    />
+    <script src="https://kit.fontawesome.com/1125888b4e.js" crossorigin="anonymous" ></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:400,700|Pacifico&display=swap" rel="stylesheet"/>
   </head>
   <body>
     <!---Header starts here ---->
@@ -25,7 +20,7 @@
           <li><a class="anchor1" href="#">Blog</a></li>
           <li><a class="anchor1" href="#">Contact</a></li>
         </ul>
-        <i class="burger fas fa-bars"></i>
+        <i class="burger fas fa-bars" aria-hidden="true"></i>
       </nav>
     </header>
     <!---Header ends here ---->
@@ -49,21 +44,12 @@
       <main class="main clearfix">
         <div class="about clearfix">
           <div class="hidden">
-            <img
-              class="imgForMobile"
-              src="biker-land-assets/image-2.jpg"
-              alt=""
-            />
+            <img class="imgForMobile"src="biker-land-assets/image-2.jpg" alt="" />
           </div>
           <h2>About us</h2>
           <p class="content">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-            voluptas dolorum doloribus, obcaecati nam officiis maxime tempora!
-            Nisi esse iusto molestiae quasi alias. Minima fugit, adipisci
-            doloremque sapiente, molestiae reprehenderit facilis dolore, at
-            cumque hic optio maxime!
-          </p>
-          <p class="button">Read More</p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptas dolorum doloribus, obcaecati nam officiis maxime tempora! Nisi esse iusto molestiae quasi alias. Minima fugit, adipisci doloremque sapiente, molestiae reprehenderit facilis dolore, at cumque hic optio maxime! </p>
+          <button class="button">Read More</button>
         </div>
 
         <div class="about-img">
@@ -77,24 +63,16 @@
         <div class="mission clearfix">
           <h2>Our Mission</h2>
           <p class="content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            veniam error assumenda, quas rerum voluptas nemo impedit ipsa,
-            cupiditate commodi eligendi nobis culpa consequatur repellendus et
-            rem nihil earum laborum praesentium, dolores ipsam quos tempora!
-            Fugiat.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam error assumenda, quas rerum voluptas nemo impedit ipsa, cupiditate commodi eligendi nobis culpa consequatur repellendus et rem nihil earum laborum praesentium, dolores ipsam quos tempora! Fugiat.
           </p>
-          <p class="button">Read More</p>
+          <button class="button">Read More</button>
         </div>
       </main>
       <!---Main content ends here ---->
 
       <!---Bio section starts here ---->
       <section class="section2">
-        <img
-          class="alissa img"
-          src="biker-land-assets/image-6.jpg"
-          alt="alissa riding a bike"
-        />
+        <img class="alissa img" src="biker-land-assets/image-6.jpg" alt="alissa riding a bike"/> 
         <div class="getToKnowAlissa">
           <h2>Meet Alissa</h2>
           <p class="content">
@@ -108,7 +86,7 @@
             exercitationem dolore doloribus fugiat voluptatibus saepe, porro
             vitae delectus ab ea nisi est ad? Nulla, laboriosam!
           </p>
-          <p class="button alissa">Read More</p>
+          <button class="button alissa">Read More<button>
         </div>
       </section>
       <!---Bio section ends here ---->
@@ -141,17 +119,9 @@
         </div>
 
         <div class="insta-images clearfix">
-          <img
-            class="img-insta"
-            src="biker-land-assets/bikerland-missing.jpg alt"
-            alt=""
-          />
+          <img class="img-insta" src="./biker-land-assets/bikerland-missing.jpg"alt=""/>
           <img class="img-insta" src="biker-land-assets/image-3.jpg" alt="" />
-          <img
-            class="img-insta overflow"
-            src="biker-land-assets/image-4.jpg"
-            alt=""
-          />
+          <img class="img-insta overflow" src="biker-land-assets/image-4.jpg" alt=""/>
         </div>
       </section>
     </div>
@@ -170,36 +140,29 @@
         </section>
 
         <section class="footer-contact clearfix">
-          <div class="contact">
+          <div class="contact" id="botom">
             <p class="footer-titles">Contact</p>
             <p class="footer-content">
-              info@email.com | 123- 456 - 7890<br />123 some road, Toronto, ON
-              <br />
-              A5A 5A5, Canada
+              info@email.com | 123- 456 - 7890<br />123 some road, Toronto, ON<br/>A5A 5A5, Canada
             </p>
           </div>
 
           <div class="newsletter">
             <div class="update">
               <p class="footer-titles">Stay Updated</p>
-              <p class="footer-content">
-                Subscribe to our newsletter to stay updated
-              </p>
+              <p class="footer-content"> Subscribe to our newsletter to stay updated</p>
             </div>
             <form action="">
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="email address"
-              />
-              <label for="email" class="visuallyHidden">Email address</label>
-              <p class="subscribe">Subscribe</p>
+              <input type="email" id="email" name="email" placeholder="email address"/> <label for="email" class="visuallyHidden">Email address</label> 
+              <button class="subscribe">Subscribe</button>
             </form>
           </div>
         </section>
         <div class="copyright">
-          <p>Copyright <i class="far fa-copyright"></i> 2019 HackerYou</p>
+          <p>
+            Copyright <i class="far fa-copyright" aria-hidden="true"></i> 2019
+            HackerYou
+          </p>
         </div>
       </div>
     </footer>

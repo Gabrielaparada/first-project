@@ -131,11 +131,20 @@ h1 {
   margin: 0 auto;
 }
 
+.media a{
+  color: #f2a11c;
+
+}
+
 .media {
   position: absolute;
-  right: 3%;
+  right:0;
   top: 35%;
-  color: #f2a11c;
+}
+
+.media a:hover {
+  color:white
+
 }
 
 i {
@@ -309,6 +318,10 @@ input[type="email"] {
 
 .contact .footer-content {
   line-height: 23px;
+}
+
+.parent-button{
+  margin-bottom:10px
 }
 
 .subscribe {
@@ -573,8 +586,15 @@ input[type="email"] {
     padding-bottom: 22px;
   }
 
+
   .button {
-    margin: auto;
+    width: 100%;
+   
+  }
+
+    .parent-button{
+    margin: 0 auto;
+    width: 300px;
   }
 
   .links-footer li {

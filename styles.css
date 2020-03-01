@@ -781,16 +781,21 @@ input[type="email"] {
     height: 300px;
     font-size: 4.5rem;
   }
-  /* input[type="email"] {
-    width: 90%;
-  } */
+
+ .about .content,
+ .mission
+ {
+    padding-left:10px 
+  }
+
+  .img-insta{
+    padding: 10px 20px 50px 20px;
+  }
+
   .button {
     width: 40%;
   }
 
-  /* .subscribe {
-    width: 90%;
-  } */
 
   .links-footer li {
     font-size: 0.8rem;

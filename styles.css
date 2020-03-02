@@ -93,6 +93,7 @@ header {
   height: 100vh;
   width: 100%;
   position: relative;
+  /* background-position-x: 0; */
 }
 
 /*Nav*/
@@ -165,6 +166,10 @@ i {
   float: left;
   padding-top: 59px;
   padding-left: 100px;
+}
+
+.mission{
+  padding-top: 74px;
 }
 
 /*images*/
@@ -362,23 +367,28 @@ input[type="email"] {
     background-repeat: no-repeat;
   }
 
-  .about,
-  .mission {
+  .about {
     padding-top: 40px;
   }
+
+  .mission{
+  padding-top:53px;
+}
+
 
   .alissa.img {
     padding-top: 20px;
   }
 }
 
-@media (max-width: 1111px) {
+@media (max-width: 1146px) {
   .main {
     margin-top: 15px;
     padding-left: 42px;
   }
   .mission {
-    padding: 21px 0 0 47px;
+    padding: 40px 0 0 44px;
+    margin-bottom:14px
   }
 
   .content {
@@ -386,7 +396,7 @@ input[type="email"] {
   }
   .about {
     padding: 36px 0 0 12px;
-    margin-bottom: 80px;
+    margin-bottom: 15px;
   }
 
   .button {
@@ -439,7 +449,7 @@ input[type="email"] {
   }
 
   .about {
-    margin-bottom: 33px;
+    margin-bottom: 15px;
   }
 
   .section2 {

@@ -103,6 +103,10 @@ a {
   padding: 20px;
 }
 
+a:hover{
+  color:#f2a11c;
+}
+
 nav ul {
   padding-top: 26px;
   padding-left: 55px;
@@ -169,7 +173,7 @@ i {
 }
 
 .mission{
-  padding-top: 74px;
+  padding-top: 55px;
 }
 
 /*images*/
@@ -530,6 +534,10 @@ input[type="email"] {
     padding: 34px 0 0 30px;
   }
 
+    .about{
+    margin-bottom: 30px;
+  }
+
   div img {
     float: none;
   }
@@ -599,7 +607,6 @@ input[type="email"] {
 
   .button {
     width: 100%;
-   
   }
 
     .parent-button{
